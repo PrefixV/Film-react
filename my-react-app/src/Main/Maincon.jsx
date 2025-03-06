@@ -10,7 +10,7 @@ class Main extends Component {
         movies: [],
         error: null,
         loading: false,
-        type: 'all', // Добавляем состояние для типа
+        type: 'all', 
     };
 
     searchMovie = (query, type = this.state.type) => {
