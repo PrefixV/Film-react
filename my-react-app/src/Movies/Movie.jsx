@@ -14,8 +14,10 @@ function Movie(props) {
              </div>
              <div className={styles.infoCon}>
                 <h3>{title}</h3>
-                <p>{year}</p>
-                <p>{type}</p>
+                <div className={styles.yearType}>
+                    <p className={styles.year}>{year}</p>
+                    <p className={styles.type}>{type}</p>
+                </div>
              </div>
         </div>    
     )

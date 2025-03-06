@@ -9,7 +9,6 @@ import Movies from './Movies/Movies.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
   <>
-    <Header />
     <Maincon />
     <Movies />
     <Footer />

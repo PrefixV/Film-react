@@ -1,0 +1,32 @@
+.preloader {
+    width: 100%;
+    height: 4px;
+    background-color: #e0e0e0; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.preloader__bar {
+    width: 50%; 
+    height: 100%;
+    background-color: #007bff; 
+    position: absolute;
+    top: 0;
+    left: -50%; 
+    border-radius: 2px;
+    animation: loading 2s infinite ease-in-out; 
+}
+
+
+@keyframes loading {
+    0% {
+        left: -50%; 
+    }
+    50% {
+        left: 100%; 
+    }
+    100% {
+        left: -50%; 
+    }
+}
